@@ -9,3 +9,10 @@ pytest-cov==2.10.1
 pytest-django==4.1.0
 pillow==8.0.1
 psycopg2==2.8.6
+
+# dependencias Heroku
+whitenoise==6.1.0
+django-environ==0.8.1
+
+## verificar mais tarde se vai dar erro no Heroku por nao ter o guvicorn
+#guvicorn==20.0.4
